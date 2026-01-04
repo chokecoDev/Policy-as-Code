@@ -35,6 +35,13 @@ opa fmt -w policy.rego
 opa eval -d .\policy.rego -d .\users.json -i .\input.json "data.play.allow" --format pretty
 ```
 
+A partir del ejercicio 9, se usa **conftest**:
+
+```powershell
+cd exercise09
+conftest test pod.yaml
+```
+
 ### Flags principales usados
 
 - `-d`: carga políticas y datos (rego/json/yaml) como `data.*`.
