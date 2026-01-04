@@ -1,0 +1,6 @@
+Ejercicio 1 - Hello Rego
+Objetivo: reglas booleanas
+Crea una policy que:
+  Tenga un package llamado play
+  Devuelva true si input.message es "world"
+  Use default

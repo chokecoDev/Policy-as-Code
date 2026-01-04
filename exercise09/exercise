@@ -1,0 +1,4 @@
+Ejercicio 9 - Kubernetes Pod
+Validar
+  No usar latest
+  No permitir contenedores privilegiados

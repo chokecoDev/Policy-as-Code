@@ -23,6 +23,7 @@ Sitúate en la carpeta del ejercicio y ejecuta:
 
 ```powershell
 cd exercise01
+opa fmt -w policy.rego
 opa eval -d .\policy.rego -i .\input.json "data.play" --format pretty
 ```
 
@@ -30,6 +31,7 @@ Para el ejercicio 2, donde además hay datos estáticos (`users.json`):
 
 ```powershell
 cd exercise02
+opa fmt -w policy.rego
 opa eval -d .\policy.rego -d .\users.json -i .\input.json "data.play.allow" --format pretty
 ```
 
